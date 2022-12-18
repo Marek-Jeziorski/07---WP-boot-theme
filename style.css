@@ -2,3 +2,7 @@
 Theme Name: wp-boot-theme
 Author: Marek Jeziorski 
 **/
+
+h1 {
+  color: red;
+}
