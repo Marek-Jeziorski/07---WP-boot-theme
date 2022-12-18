@@ -1,0 +1,1 @@
+<!-- template for single post (wpis) -->

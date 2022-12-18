@@ -1,0 +1,1 @@
+<!-- This file is a plugin that comes with the theme. It allows you to plug in all of the functionality you need within a theme -->
