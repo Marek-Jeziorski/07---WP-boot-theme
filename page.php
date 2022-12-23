@@ -2,7 +2,7 @@
 
 <?php get_header();?>
 
-<h3>POST-TYPE = pag e,</h3>
+<h3>POST-TYPE = page,</h3>
 <h3>PAGE-TEMPLATE = page.php</h3>
 
 <div class="container">
