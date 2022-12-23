@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WP-boot-theme</title>
 
-    <!-- inject styles/scripts we set in function.php -->
+    <!-- header.php inject styles/scripts we set in function.php -->
     <?php wp_head();?>
 </head>
 <body>
