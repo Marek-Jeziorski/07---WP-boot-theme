@@ -24,7 +24,7 @@ add_theme_support('menus');
 // Register Menu Locations
 register_nav_menus(
     array(
-        'main-menu' => 'Lokalizacja Menu Głównego',
-        'support-menu' => 'Lokalizacja Menu Dodatkowego'
+        'main-menu' => 'Umieść w lokalizacji main-menu',
+        'support-menu' => 'Umieść w lokalizacji support-menu'
     )
 );
