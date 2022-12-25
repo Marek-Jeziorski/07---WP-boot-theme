@@ -1,13 +1,14 @@
-<!-- template for all posts within a site (wpisy) -->
+<!-- template only for posts with news category (odpowiednik archive) -->
 
 
 <?php get_header();?>
 
-<h3>POST-TYPE = posts-category</h3>
-<h3>PAGE-TEMPLATE = archive.php</h3>
+<h3>POST-TYPE = posts-category-news</h3>
+<h3>PAGE-TEMPLATE = category-news.php</h3>
 
 <div class="container">
     <h1>Kategoria: <?php echo single_cat_title() ?></h1>
+
     <?php get_template_part('includes/section', 'archive');?>
     <hr>
 
