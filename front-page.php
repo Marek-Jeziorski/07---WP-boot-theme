@@ -7,7 +7,9 @@ template automatically attaches itself to the home page set in WP -->
 <h3>PAGE-TEMPLATE = front-page.php</h3>
 
 <div class="container">
-    <h1><?php the_title();?> </h1>
+    <h1><?php bloginfo('name');?> </h1>
+    <h2><?php bloginfo('description');?> </h2>
+    <h3><?php the_title();?> </h3>
     <?php get_template_part('includes/section', 'content');?>
 </div>
 
