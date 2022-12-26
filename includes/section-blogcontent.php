@@ -1,7 +1,10 @@
 <?php if (have_posts()): while (have_posts()): the_post();?>
+<h3><?php the_title();?></h3>
 
-<h3><?php the_title();?><br><?php echo get_the_date() ?></h3>
+<p><?php echo get_the_date() ?></p>
+
 <?php the_content();?>
+<div class="link-pages"><?php wp_link_pages()?></div>
 
 <div class="postinfo">
     <?php

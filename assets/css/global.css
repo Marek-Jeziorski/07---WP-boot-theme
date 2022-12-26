@@ -41,3 +41,8 @@ ul {
 .pagination a {
   background-color: var(--co-yellow);
 }
+
+.post-page-numbers {
+  padding: 0.25rem;
+  background-color: var(--co-orange);
+}
