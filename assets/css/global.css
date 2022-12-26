@@ -46,3 +46,19 @@ ul {
   padding: 0.25rem;
   background-color: var(--co-orange);
 }
+
+.article-arch-view,
+.single-page-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.article-arch-img,
+.single-page-img {
+  flex: 2;
+}
+
+.article-arch-body,
+.single-page-body {
+  flex: 4;
+}
