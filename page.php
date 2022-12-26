@@ -6,8 +6,7 @@
 <h3>PAGE-TEMPLATE = page.php</h3>
 
 <div class="container">
-    <h1><?php the_title();?></h1>
-    <?php get_template_part('includes/section', 'content');?>
+    <?php get_template_part('includes/section', 'pagecontent');?>
 </div>
 
 <?php get_footer();?>

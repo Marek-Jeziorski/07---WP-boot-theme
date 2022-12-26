@@ -12,7 +12,7 @@
     <img class="img" src="<?php the_post_thumbnail_url('blog-large');?>" alt="<?php the_title()?>">
     <?php endif;?>
 
-    <?php get_template_part('includes/section', 'blogcontent');?>
+    <?php get_template_part('includes/section', 'singlecontent');?>
 </div>
 
 <?php get_footer();?>

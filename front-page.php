@@ -9,8 +9,7 @@ template automatically attaches itself to the home page set in WP -->
 <div class="container">
     <h1><?php bloginfo('name');?> </h1>
     <h2><?php bloginfo('description');?> </h2>
-    <h3><?php the_title();?> </h3>
-    <?php get_template_part('includes/section', 'content');?>
+    <?php get_template_part('includes/section', 'pagecontent');?>
 </div>
 
 <?php get_footer();?>
